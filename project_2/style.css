@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kanit&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&family=Ubuntu&family=VT323&display=swap");
+
+body {
+  margin: 0;
+  font-family: Josefin Sans;
+  text-transform: uppercase;
+  background-color: rgb(247, 247, 247);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+.image-container {
+  margin: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  width: 50%;
+  margin-top: 5px;
+}
+
+
+/* Responsive .. */
+@media screen and (max-width:600px) {
+    h1{
+        font-size: 20px;
+    }
+    .image-container{
+        margin: 10px;
+    }
+}
